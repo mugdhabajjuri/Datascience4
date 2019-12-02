@@ -123,7 +123,7 @@ We are getting approximately 73% of accuracy when Logistic regression model is a
 ## Regression using the "Random Forest Model" performed better compared to other models
 
 
-
+Through mean square errors we can see that random forest is performing well when compared to logistic and linear regression models.
 
 
 ![png](reports/models.png)
