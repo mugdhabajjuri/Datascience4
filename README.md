@@ -120,10 +120,10 @@ We are getting approximately 73% of accuracy when Logistic regression model is a
     Mean Square Error Test team2: 0.004
 
 
-## Regression using the "Random Forest Model" performed better compared to other models
+## Model Comparisons
 
 
-Through mean square errors we can see that random forest is performing well when compared to logistic and linear regression models.
+Through "mean square errors" we can see that random forest is performing well when compared to logistic and linear regression models.
 
 
 ![png](reports/models.png)
