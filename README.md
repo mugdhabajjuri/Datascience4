@@ -119,6 +119,7 @@ We are getting approximately 73% of accuracy when Logistic regression model is a
     Mean Square Error Train team2: 0.001
     Mean Square Error Test team2: 0.004
 
+### Confusion matrix were also observed for both Team 1 and Team 2
 
 ## Model Comparisons
 
