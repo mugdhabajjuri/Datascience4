@@ -14,11 +14,11 @@ spi_global_rankings_intl.csv contains current SPI ratings and rankings for men's
 
 ### Exploratory Data Analysis
 
- ##### Distribution of each feature.
- ##### Finding the winner of the match
- ##### Teams with highest goals
- ##### Matches played in each league
- ##### Relation between number of goals by each team, global rank of the team and Matches played by the team
+ - Distribution of each feature.
+ - Finding the winner of the match
+ - Teams with highest goals
+ - Matches played in each league
+ - Relation between number of goals by each team, global rank of the team and Matches played by the team
 
 
 
