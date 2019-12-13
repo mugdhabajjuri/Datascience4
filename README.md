@@ -12,53 +12,24 @@ spi_global_rankings.csv contains current SPI ratings and rankings for men's club
 
 spi_global_rankings_intl.csv contains current SPI ratings and rankings for men's international teams.
 
+### Exploratory Data Analysis
+
+ ##### Distribution of each feature.
+ ##### Finding the winner of the match
+ ##### Teams with highest goals
+ ##### Matches played in each league
+ ##### Relation between number of goals by each team, global rank of the team and Matches played by the team
+
+
 
 ### Correlation between the Features
 
-
 ![png](reports/corr.png)
 
-
-
-
-
-
-
-
-
-
-### Bar plot shows the teams with highest goals
-
-
-![png](reports/output_29_0.png)
-
-
-### Bar graph shows matches played in each league
-
-
-![png](reports/output_31_0.png)
-
-
-
-
-
-
-
-### 3D scatter plot - Show relation between number of goals by each team, global rank of the team and Matches played by the team
-
-
-
-
-![png](reports/3d.png)
-
-
-
-```python
-df_final = df_final.dropna()
-```
-
-
-
+#### Regression models used.
+- Logistic Regression
+- Linear Regression
+- Random forest Regression
 
 # Logistic Regression
 
@@ -70,7 +41,7 @@ df_final = df_final.dropna()
     Accuracy of Logistic regression classifier on test set for score2: 0.72
 
 
-We are getting approximately 73% of accuracy when Logistic regression model is applied.
+#### We are getting approximately 73% of accuracy when Logistic regression model is applied.
 
 ### Mean Square Errors
 
