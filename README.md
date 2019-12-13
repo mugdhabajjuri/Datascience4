@@ -19,19 +19,16 @@ spi_global_rankings_intl.csv contains current SPI ratings and rankings for men's
  - Teams with highest goals
  - Matches played in each league
  - Relation between number of goals by each team, global rank of the team and Matches played by the team
+ - Correlation between the Features
 
 
-
-### Correlation between the Features
-
-![png](reports/corr.png)
-
-#### Regression models used.
+### Regression models used.
 - Logistic Regression
 - Linear Regression
 - Random forest Regression
 
-# Logistic Regression
+
+### Logistic Regression
 
 
     Accuracy of Logistic regression classifier on train set for score1: 0.73
@@ -54,7 +51,7 @@ spi_global_rankings_intl.csv contains current SPI ratings and rankings for men's
     Mean Square Error Test team2: 0.379
 
 
-# Linear regression
+### Linear regression
 
 
     LinearRegression -- Mean square error on train set for score1 for score1
@@ -80,7 +77,7 @@ spi_global_rankings_intl.csv contains current SPI ratings and rankings for men's
     0.9873187142614218
 
 
-# Random forest
+### Random forest
 
 
     Mean Square Error Train team1: 0.001
@@ -96,7 +93,4 @@ spi_global_rankings_intl.csv contains current SPI ratings and rankings for men's
 
 
 Through "mean square errors" we can see that random forest is performing well when compared to logistic and linear regression models.
-
-
-![png](reports/models.png)
 
